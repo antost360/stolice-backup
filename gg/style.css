@@ -1,0 +1,76 @@
+#body {
+  background-color: rgba(0, 0, 0, 0.466);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guzik {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  font-family: system-ui;
+  border-radius: 30px;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#main {
+  margin: 30px;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 60px;
+  background-color: #38343475;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#div_game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.div_test {
+  background-color: #38343475;
+  position: relative;
+  width: 350px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 25px;
+}
+
+.flaga {
+  width: 250px;
+  height: 150px;
+  border-radius: 30px;
+}
+
+.wynik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 200px;
+  height: 180px;
+  background-color: #38343475;
+  font-size: 100px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: system-ui;
+  font-weight: bold;
+  color: white;
+}
